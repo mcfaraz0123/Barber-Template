@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header start  */
+
+.header{
+    background: #000;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    margin-left: 45px;
+    color: white;
+    font-size: 30px;
+    padding: 35px 0;
+}
+
+.logo span{
+    color: goldenrod;
+}
+
+.list ul{
+    display: flex;
+    margin-left: 320px;
+    list-style: none;
+    margin-top: -65px;
+    
+    
+}
+
+.list ul li{
+    padding: 0px 20px;
+}
+
+.list ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.list ul li a:hover{
+    color: goldenrod;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -22px;
+    background: transparent;
+    color: white;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: 'Fasthand', cursive; */
+}
+
+.btn:hover{
+    color: goldenrod;
+}
+
+/* Header End  */
+
+
+/* Navbar start  */
+
+.navbar{
+    /* background-image: url(./images/OIP\ \(1\).jpeg); */
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./images/OIP\ \(1\).jpeg);
+    height: 150px;
+    color: white;
+}
+
+.navbar h3{
+    text-align: center;
+    padding: 50px 0 10px 0;
+    font-family: Arial;
+}
+
+.navbar p{
+    text-align: center;
+}
+
+/* Navbar end  */
+
+
+/* Welcome section start  */
+
+.welcome{
+    height: 280px;
+    background: rgba(25,23,23,1);
+    color: white;
+    width: 100%;
+}
+
+.welcome h3{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.welcome h3 span{
+    color: goldenrod;
+}
+
+.welcome h5{
+    text-align: center;
+    padding: 15px;
+}
+
+.welcome p{
+    width: 350px;
+    margin-left: 438px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.welcome h4{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Fasthand', cursive;
+    font-size: 25px;
+}
+
+/* welcome section end  */
+
+/* Testimonial section start  */
+
+.testimonial{
+    width: 600px;
+    height: 400px;
+    background: #000;
+    color: white;
+}
+
+.testimonial h3{
+    text-align: center;
+    padding-top: 80px;
+    font-family: Arial;
+}
+
+.testimonial .para1{
+    padding-top: 55px;
+    width: 370px;
+    text-align: center;
+    margin-left: 110px;
+    font-size: 12px;
+}
+
+.testimonial .para2{
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+    width: 370px;
+    margin-left: 110px;
+}
+
+.testimonial h4{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Fasthand', cursive;
+}
+
+
+.img{
+    width: 610px;
+    height: 400px;
+    float: right;
+    margin-top: -400px;
+}
+
+/* Testimonial section end  */
+
+
+/* Service section start  */
+
+.service{
+    background: rgba(25,23,23,1);
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.service h3{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-family: Arial;
+}
+
+/* Trimming section start  */
+
+.trim{
+    background: #000;
+    height: 250px;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 75px;
+}
+
+.trim .img1{
+    width: 200px;
+    height: 135px;
+}
+
+.trim h4{
+    text-align: center;
+    padding: 20px 0px 25px 0px;
+}
+
+.trim p{
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Trimming section end  */
+
+/* shaving section start  */
+
+.shav{
+    background: #000;
+    height: 250px;
+    width: 200px;
+    margin-left: 520px;
+    margin-top: -250px;
+}
+
+.shav .img2{
+    width: 200px;
+    height: 135px;
+}
+
+.shav h4{
+    text-align: center;
+    padding: 20px 0px 25px 0px;
+}
+
+.shav p{
+    text-align: center;
+    font-size: 10px;
+}
+
+/* shaving section end  */
+
+/* hairstyle section start  */
+
+.hair{
+    background: #000;
+    height: 250px;
+    width: 200px;
+    margin-left: 770px;
+    margin-top: -250px;
+}
+
+.hair .img3{
+    width: 200px;
+    height: 135px;
+}
+
+.hair h4{
+    text-align: center;
+    padding: 20px 0px 25px 0px;
+}
+
+.hair p{
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Hairstyle section end  */
+
+/* Last section start  */
+
+.all{
+    background:  #000;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+
+/* Navigation section start  */
+
+.navigation h4{
+    margin-left: 270px;
+    padding: 40px 0 25px 0;
+    font-family: serif;
+}
+
+.navigation p{
+    margin-left: 270px;
+    font-size: 8px;
+    padding: 3px;
+}
+
+
+/* contact section start */
+
+.contact h4{
+    margin-left: 470px;
+    padding: 40px 0 25px 0;
+    font-family: serif;
+    margin-top: -128px;
+    font-family: serif;
+}
+
+.contact p{
+    margin-left: 470px;
+    font-size: 8px;
+    padding: 3px;
+}
+
+
+/* All service section start  */
+
+.all_service h4{
+    margin-left: 670px;
+    padding: 40px 0 25px 0;
+    font-family: serif;
+    margin-top: -128px;
+    font-family: serif;
+}
+
+.all_service p{
+    margin-left: 670px;
+    font-size: 8px;
+    padding: 3px;
+}
+
+/* Newsletter section start  */
+
+.letter h4{
+    margin-left: 850px;
+    padding: 40px 0 25px 0;
+    font-family: serif;
+    margin-top: -128px;
+    font-family: serif;
+}
+
+.letter label{
+    margin-left: 850px;
+    padding: 3px;
+}
+
+.letter input{
+    width: 110px;
+    height: 20px;
+    background: transparent;
+    font-size: 10px;
+    padding: 3px 0 3px 10px;
+    border: 1px solid goldenrod;
+}
+
+/* footer start  */
+
+.footer{
+    background: rgba(25,23,23,1);
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* footer end  */
